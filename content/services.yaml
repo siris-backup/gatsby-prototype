@@ -1,9 +1,12 @@
-- title: Modern Web Apps Development
-  icon: '/services/website.svg'
-  description: Get your mvp up & running in less than a week built with the React, NodeJS and MongoDB.
-- title: Mobile App Development
-  icon: '/services/app-development.svg'
-  description: Build beautiful mobile apps that represent the power and life of any business.
-- title: Tech Consulting
-  icon: '/illustrations/website-build.svg'
-  description: Help design software architecture for complex software systems
+- title: Register
+  icon: '/illustrations/fill-form.svg'
+  description: Register for free & put up your Profile
+- title: Match from Professionals
+  icon: '/illustrations/match.svg'
+  description: Professionals will analyze your profile and find a perfect match for you
+- title: Meet the match
+  icon: '/illustrations/meeting.svg'
+  description: Meet your match and the professional
+- title: Marry
+  icon: '/illustrations/marriage.svg'
+  description: Get married with Merobiha.com guarantee

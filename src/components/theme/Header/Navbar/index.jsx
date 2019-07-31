@@ -11,7 +11,7 @@ const Navbar = () => (
 			<BrandLogo color="#212121" strokeWidth="1">
 				<img src={Logo} alt="Siris Technology" />
 			</BrandLogo>
-			Siris Technology
+			Merobiha.com
 		</Brand>
 		<NavbarLinks desktop />
 	</Wrapper>

@@ -24,7 +24,6 @@ export const Services = () => {
 	return (
 		<Wrapper>
 			<Container>
-				<h2>Services</h2>
 				<Flex>
 					{edges.map(({ node }) => (
 						<Service key={node.id} {...node} />
