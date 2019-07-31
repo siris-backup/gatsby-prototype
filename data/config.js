@@ -1,8 +1,8 @@
 module.exports = {
-	defaultTitle: 'Siris Technology',
+	defaultTitle: 'Merobiha.com',
 	logo: 'https://portfolio.smakosh.com/favicon/favicon-512.png',
 	author: 'Siris Technology',
-	url: 'https://siristechnology.com',
+	url: 'https://merobiha.com',
 	legalName: 'Siris Technology LLC',
 	defaultDescription: 'A technology company',
 	socialLinks: {
@@ -10,8 +10,8 @@ module.exports = {
 		github: 'https://github.com/siristechnology',
 	},
 	googleAnalyticsID: 'UA-88875900-4',
-	themeColor: '#6b63ff',
-	backgroundColor: '#6b63ff',
+	themeColor: '#ffabcd',
+	backgroundColor: '#ffabcd',
 	social: {
 		facebook: 'appId',
 		twitter: '@siristechnology',

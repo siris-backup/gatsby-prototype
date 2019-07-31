@@ -48,16 +48,26 @@ const ContactForm = ({
 		<InputField>
 			<Input
 				as={FastField}
-				component="textarea"
-				aria-label="message"
-				id="message"
-				rows="8"
-				type="text"
-				name="message"
-				placeholder="Message*"
-				error={touched.message && errors.message}
+				type="password"
+				name="password1"
+				component="input"
+				aria-label="Password"
+				placeholder="Password*"
+				error={touched.name && errors.name}
 			/>
-			<ErrorMessage component={Error} name="message" />
+			<ErrorMessage component={Error} name="password1" />
+		</InputField>
+		<InputField>
+			<Input
+				as={FastField}
+				type="password"
+				name="password2"
+				component="input"
+				aria-label="Password"
+				placeholder="Confirm Password*"
+				error={touched.name && errors.name}
+			/>
+			<ErrorMessage component={Error} name="password2" />
 		</InputField>
 		{values.name && values.email && values.message && (
 			<InputField>
@@ -92,7 +102,8 @@ export default withFormik({
 	mapPropsToValues: () => ({
 		name: '',
 		email: '',
-		message: '',
+		password1: '',
+		password2: '',
 		recaptcha: '',
 		success: false,
 	}),
@@ -102,7 +113,8 @@ export default withFormik({
 			email: Yup.string()
 				.email('Invalid email')
 				.required('Email field is required'),
-			message: Yup.string().required('Message field is required'),
+			password1: Yup.string().required('Password field is required'),
+			password2: Yup.string().required('Password field is required'),
 			recaptcha: Yup.string().required('Robots are not welcome yet!'),
 		}),
 	handleSubmit: async (
