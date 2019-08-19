@@ -1,5 +1,7 @@
 # [Siris Technology](https://siristechnology.com)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/siristechnology/gatsby-prototype.svg)](https://greenkeeper.io/)
+
 > A company website built using react, gatsby, graphql, node
 
 ## Running locally for development
